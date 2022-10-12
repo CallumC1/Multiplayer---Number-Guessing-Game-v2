@@ -73,6 +73,7 @@ def register():
         print("\nAccount Registration Complete!")
 
     else:
+      num_emo = cap_emo = len_emo = "❌"
       if result[0] == True:
         num_emo = "✔️"
       if result[1] == True:
